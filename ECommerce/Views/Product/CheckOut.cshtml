@@ -1,0 +1,53 @@
+﻿@model Sepet
+
+@{
+    ViewData["Title"] = "CheckOut";
+}
+
+<h1>CheckOut</h1>
+
+<div class="container">
+    <div class="page-header clearfix detailHeading">
+        <h2 class="text-muted">CheckOut Detail</h2>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-header clearfix detailHeading">
+        <div id="productsTable">
+            <table class="table table-condensed" id="productIndexTable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Quantity</th>
+                        <th>Sub Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model.sepetDetayList)
+                    {
+                        <tr class="productRow">
+                            <td class="">@product.product.Title</td>
+                            <td class="">@product.Quantity</td>
+                            <td class="">@product.subTotal</td>
+                        </tr>
+                    }
+
+                    
+                </tbody>
+                
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="page-header clearfix detailHeading">
+        <table class="table table-condensed" id="productSummaryTable">
+            <tbody>
+                <tr>Total: @Model.Total</tr>
+            </tbody>
+        </table>
+</div>
+</div>
+

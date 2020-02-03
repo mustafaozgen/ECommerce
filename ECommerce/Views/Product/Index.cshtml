@@ -1,0 +1,41 @@
+﻿@model ECommerce.Models.ProductIndexModel
+
+@{
+    ViewBag.Title = "Product List";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<form asp-controller="Product" asp-action="CheckOut">
+    <p>
+        <button class="btn btn-danger" type="submit">CheckOut</button>
+    </p>
+</form>
+
+<div id="products">
+    <h3>Product Catalog</h3>
+    <div id="productsTable">
+        <table class="table table-condensed" id="productIndexTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model.Products)
+                {
+                    <tr class="productRow">
+                        <td class="">@product.Title</td>
+                        <td class="">@product.Price</td>
+                        <td class="">
+                            <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">
+                                <button class="btn btn-info">Detail</button>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

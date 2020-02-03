@@ -1,0 +1,10 @@
+C:\Workspace\ECommerce\ECommerceData\bin\Debug\netcoreapp3.1\ECommerceData.deps.json
+C:\Workspace\ECommerce\ECommerceData\bin\Debug\netcoreapp3.1\ECommerceData.runtimeconfig.json
+C:\Workspace\ECommerce\ECommerceData\bin\Debug\netcoreapp3.1\ECommerceData.runtimeconfig.dev.json
+C:\Workspace\ECommerce\ECommerceData\bin\Debug\netcoreapp3.1\ECommerceData.dll
+C:\Workspace\ECommerce\ECommerceData\bin\Debug\netcoreapp3.1\ECommerceData.pdb
+C:\Workspace\ECommerce\ECommerceData\obj\Debug\netcoreapp3.1\ECommerceData.AssemblyInfoInputs.cache
+C:\Workspace\ECommerce\ECommerceData\obj\Debug\netcoreapp3.1\ECommerceData.AssemblyInfo.cs
+C:\Workspace\ECommerce\ECommerceData\obj\Debug\netcoreapp3.1\ECommerceData.dll
+C:\Workspace\ECommerce\ECommerceData\obj\Debug\netcoreapp3.1\ECommerceData.pdb
+C:\Workspace\ECommerce\ECommerceData\obj\Debug\netcoreapp3.1\ECommerceData.csprojAssemblyReference.cache
